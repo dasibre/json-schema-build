@@ -1,0 +1,11 @@
+{
+	"first_name": "Malcom",
+	"last_name": "X",
+	"birthday": "1925-05-19",
+	"address": {
+	  "street_address": "3840 Broadway",
+	  "city": "New York City",
+	  "state": "New York",
+	  "country": "United States"
+	}
+}

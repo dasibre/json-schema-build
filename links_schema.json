@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "links.json",
+	"type": "object",
+	"properties": {
+		"links": {
+			"id": "links",
+			"type": "object",
+			"properties": {
+				"self": {
+					"id": "self",
+					"type": "string"
+				}
+			},
+			"required": ["self"]
+		}
+	}
+}

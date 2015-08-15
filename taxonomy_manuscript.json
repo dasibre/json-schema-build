@@ -1,0 +1,74 @@
+{
+  "links": {
+    "self": "http://baseurl/tagged_manuscripts"
+  },
+  "data": [
+	{
+	  "type": "manuscripts",
+	  "id": "1",
+	  "attributes": {
+		"accode": "AA1001",
+		"received_date": "2015-04-23",
+		"taxonomy": {
+		  "disciplines": [
+			":id",
+			":id"
+		  ],
+		  "concepts": [
+			{
+			  "facet": "http://facet1",
+			  "id": "http://concept1"
+			},
+			{
+			  "facet": "http://facet1",
+			  "id": "http://concept2"
+			}
+		  ]
+		}
+	  },
+	  "relationships": {
+		"journal": {
+		  "data": {
+			"type": "journals",
+			"id": "1"
+		  }
+		},
+		"section": {
+		  "data": {
+			"type": "sections",
+			"id": "2"
+		  }
+		},
+		"editor": {
+		  "data": {
+			"type": "editors",
+			"id": "1"
+		  }
+		}
+	  },
+	  "included": [
+		{
+		  "type": "journals",
+		  "id": "1",
+		  "attributes": {
+			"name": "L"
+		  }
+		},
+		{
+		  "type": "editors",
+		  "id": "1",
+		  "attributes": {
+			"initials": ":initials"
+		  }
+		},
+		{
+		  "type": "section",
+		  "id": ":id",
+		  "attributes": {
+			"code": "sectioncode"
+		  }
+		}
+	  ]
+	}
+  ]
+}

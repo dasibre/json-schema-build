@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "tagged-manuscript-data.json",
+  "type": "array",
+  "items": {
+    "id": "data-elements",
+    "type": "object",
+    "properties": {
+      "type": {
+        "id": "type",
+        "type": "string",
+        "default": "manuscripts"
+      },
+      "id": {
+        "id": "id",
+        "type": "string",
+        "default": "1"
+      },
+      "attributes": { "$ref": "manuscript.json#/attributes" }
+    }
+  }
+}

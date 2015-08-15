@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "id": "attributes",
+    "type": "object",
+    "properties": {
+      "accode": {
+        "id": "accode",
+        "type": "string",
+        "default": "AA1001"
+      },
+      "received_date": {
+        "id": "received_date",
+        "type": "string",
+        "format": "date-time",
+        "default": "2015-04-23"
+      },
+      "taxonomy": {
+        "id": "taxonomy",
+        "type": "object"
+      }
+    },
+    "required": [
+      "accode", "received_date", "taxonomy"
+    ]
+  }
+}
